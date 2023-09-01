@@ -1,16 +1,35 @@
 import React, {Component} from 'react';
+import FooterLinkHover from './FooterLinkHover';
 
 class Footerlinks extends Component {
     render() {
         return (
-            <div>
+            <div className="footer_left">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>SALE ITEMS</li>
-                    <li>Store</li>
-                    <li>Returns Policy</li>
+                    <li>
+                        <a href='index.html'>Home</a>
+                        <FooterLinkHover />
+                    </li>
+                    <li>
+                        <a href='about.html'>About</a>
+                        <FooterLinkHover />
+                    </li>
+                    <li>
+                        <a href='contact.html'>Contact</a>
+                        <FooterLinkHover />
+                    </li>
+                    <li>
+                        <a href='sale.html'>SALE ITEMS</a>
+                        <FooterLinkHover />
+                    </li>
+                    <li>
+                        <a href='store.html'>Store</a>
+                        <FooterLinkHover />
+                    </li>
+                    <li>
+                        <a href='returns.html'>Returns Policy</a>
+                        <FooterLinkHover />
+                    </li>
                 </ul>
             </div>
         );

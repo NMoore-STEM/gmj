@@ -6,7 +6,7 @@ class CollectionScroll extends Component {
         return (
             <div className="collection_frame">
                 <div className="collection_container">
-                    <h3>COLLECTION_01</h3>
+                    <h3>"COLLECTION_0" + [i + 1]</h3>
                     <div className="collection_deco"></div>
                 </div>
                 <div>
