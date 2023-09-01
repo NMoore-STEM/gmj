@@ -2,6 +2,7 @@ import React from 'react';
 import './index.scss';
 import Header from './/components/Header';
 import CollectionScroll from './/components/CollectionScroll';
+import Footer from './/components/Footer';
 
 export default function App() {
     return (
@@ -16,6 +17,7 @@ export default function App() {
                 <img src={require("./images/general_splash_01.png")} alt={"Formal couple seated at opera"} />
             </div>
         </div>
+        <Footer />
         </>
     )
 }

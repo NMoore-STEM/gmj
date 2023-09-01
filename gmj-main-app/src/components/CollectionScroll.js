@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import CollectionScrollItem from './CollectionScrollItem';
+import CollectionScrollItem from './CollectionScrollItem';
 
 class CollectionScroll extends Component {
     render() {
@@ -10,8 +10,8 @@ class CollectionScroll extends Component {
                     <div className="collection_deco"></div>
                 </div>
                 <div>
-                    {/* <CollectionScrollItem />
                     <CollectionScrollItem />
+                    {/* <CollectionScrollItem />
                     <CollectionScrollItem />
                     <CollectionScrollItem /> */}
                 </div>

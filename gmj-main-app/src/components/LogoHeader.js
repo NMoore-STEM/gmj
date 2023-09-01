@@ -1,13 +1,5 @@
 import React, {Component} from 'react'
 
-
-// function LogoHeader() {
-//     <div className='logo_header_box1'>
-//     </div>
-// }
-
-// export default LogoHeader
-
 class LogoHeader extends Component {
     render() {
         return (

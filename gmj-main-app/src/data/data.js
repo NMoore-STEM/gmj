@@ -12,7 +12,7 @@ export const stockData = [{
          materials:"24K Gold, Lapis",
          sizes:"16, 18, 20, 22",
          inventory:"10",
-         img:"001.png"
+         img:require(".//../images/necklaces/001.png")
       },{
          id:"002",
          type:"necklace",
