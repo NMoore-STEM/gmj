@@ -1,12 +1,13 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom'
 
 class NavBar extends Component {
     render() {
         return (
             <nav>
-                <a href="store.html" className="nav_button">STORE</a>
-                <a href="about.html" className="nav_button">ABOUT</a>
-                <a href="contact.html" className="nav_button">CONTACT</a>
+                <Link to='store' className="nav_button">STORE</Link>
+                <Link to='about' className="nav_button">ABOUT</Link>
+                <Link to='contact' className="nav_button">CONTACT</Link>
             </nav>
         );
     }
