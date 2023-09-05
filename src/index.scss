@@ -60,6 +60,16 @@ h4{
   font-family: $heading-font;
   font-size: 8vw;
 }
+h5{
+  font-family: $body-font;
+  font-size: 3rem;
+}
+p{
+  font-family: $body-font;
+}
+.center_text{
+  text-align: center;
+}
 .flex_col_center{
   display: flex;
   flex-direction: column;
@@ -118,6 +128,14 @@ nav{
   margin: 0 2rem;
   text-decoration: none;
   color: $black;
+}
+.custom_button{
+  color: $white;
+  font-family: $heading-font;
+  background-color: $dark-gray;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  box-shadow: 0 15px 4px -10px $black;
 }
 .cart_full{
   position: relative;
@@ -181,6 +199,35 @@ nav{
 }
 .collection_card{
   height:auto;
+}
+.page_container{
+  display: flex;
+  margin: 1.5rem 0 6rem 0;
+}
+.page_title_frame{
+  outline: 4px solid $black;
+  outline-offset: -4px;
+  padding: 0.6rem 1rem;
+  margin: auto 0;
+  filter: drop-shadow(-12px 12px 3px rgba(0,0,0,0.25));
+}
+.page_title{
+  font-family: $heading-font;
+}
+.store_main{
+  margin: 0 clamp(40px, 10dvw, 6rem);
+}
+// .left_side_full{
+//   max-width:
+// }
+.filter_container{
+  background-color: $light-gray;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.25);
+  padding: 1rem;
+}
+.custom_body{
+  font-size: 2rem;
+  margin: 0.6rem 0 1.2rem 0;
 }
 .value_statement{
   padding: 4rem;
