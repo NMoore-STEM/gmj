@@ -3,8 +3,8 @@ export const stockData = [{
       {
          id:"001",
          type:"necklace",
-         name:"Tunisian",
-         shortDescr:"Inspired by the famous North-African city that touches the Mediterranean Sea.",
+         "name":"Tunisian",
+         "shortDescr":"Inspired by the famous North-African city that touches the Mediterranean Sea.",
          fullDescr:"Inspired by the famous North-African city that touches the Mediterranean Sea.",
          price:"1450",
          onSale:"no",
@@ -866,3 +866,5 @@ export const stockData = [{
          "img":""
       }]
 }]
+
+export default stockData
