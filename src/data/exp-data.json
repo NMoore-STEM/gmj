@@ -1,0 +1,63 @@
+[
+    {
+    "necklace":[
+        {
+            "id": "001",
+            "type":"necklace",
+            "name":"Carthaginian",
+            "shortDescr":"Inspired by the famous North-African city that touches the Mediterranean Sea.",
+            "fullDescr":"Inspired by the famous North-African city that touches the Mediterranean Sea.",
+            "price":1450,
+            "onSale":"no",
+            "salePrice":"",
+            "materials":"24K Gold, Lapis",
+            "sizes":"16, 18, 20, 22",
+            "inventory":10,
+            "img":"001.png"
+        },{
+            "id":"002",
+            "type":"necklace",
+            "name":"Coober Pedy",
+            "shortDescr":"From the hidden depths of Australia, this pendant embodies the treasure that lies within.",
+            "fullDescr":"From the hidden depths of Australia, this pendant embodies the treasure that lies within.",
+            "price":"675",
+            "onSale":"no",
+            "salePrice":"",
+            "materials":"Sterling Silver, Opal, Ruby",
+            "sizes":"16, 18, 20, 22",
+            "inventory":"12",
+            "img":"002.png"
+         }
+    ]
+},{
+    "earrings":[
+        {
+            "id":"003",
+            "type":"necklace",
+            "name":"Barahona",
+            "shortDescr":"This rare blue larimar comes from the Dominican Republic and is not found anywhere else in the world.",
+            "fullDescr":"This rare blue larimar comes from the Dominican Republic and is not found anywhere else in the world.",
+            "price":"350",
+            "onSale":"no",
+            "salePrice":"",
+            "materials":"Sterling Silver, Blue Larimar, Amethyst",
+            "sizes":"16, 18, 20",
+            "inventory":"6",
+            "img":"003.png"
+            },{
+            "id":"004",
+            "type":"necklace",
+            "name":"Borea et Australis",
+            "shortDescr":"With precious stones from the northern hemisphere and the southern hemisphere, this pendant makes a striking addition to your collection.",
+            "fullDescr":"With precious stones from the northern hemisphere and the southern hemisphere, this pendant makes a striking addition to your collection.",
+            "price":"275",
+            "onSale":"no",
+            "salePric":"",
+            "materials":"Sterling Silver, Opal, Ruby",
+            "sizes":"16, 18, 20",
+            "inventory":"8",
+            "img":"004.png"
+            }
+    ]
+}
+]
