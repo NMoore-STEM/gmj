@@ -4,7 +4,7 @@ import Header from './/components/Header';
 import Footer from './/components/Footer';
 import ValueStatement from './/components/ValueStatement';
 import Home from './pages/home';
-import About from './pages/about';
+// import About from './pages/about';
 import Contact from './pages/contact';
 import StoreFrame from './pages/StoreFrame';
 import Store from './pages/Store';
@@ -13,7 +13,7 @@ import Bracelets from './pages/Bracelets';
 import Earrings from './pages/Earrings';
 import Charms from './pages/Charms';
 import Sale from './pages/Sale';
-import ItemPage from './pages/itempage';
+// import ItemPage from './pages/itempage';
 
 export default function App() {
     return (
@@ -22,7 +22,7 @@ export default function App() {
             <Header />
             <Routes>
                 <Route path="/" element={ <Home/> } />
-                <Route path="about" element={ <About/> } />
+                {/* <Route path="about" element={ <About/> } /> */}
                 <Route path="contact" element={ <Contact/> } />
                 <Route path="store" element={ <StoreFrame/> }>
                     <Route path="/store/" element={ <Store/>} />
@@ -37,7 +37,7 @@ export default function App() {
                 <Route path="earrings" element={ <Earrings/> } />
                 <Route path="charms" element={ <Charms/> } />
                 <Route path="sale" element={ <Sale/> } />
-                <Route path="itempage" element={ <ItemPage/> } />
+                {/* <Route path="itempage" element={ <ItemPage/> } /> */}
             </Routes>
             <ValueStatement />
             <Footer />
