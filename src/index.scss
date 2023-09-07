@@ -212,6 +212,45 @@ nav{
     height: 100%;
   }
 }
+.store_menu{
+  position: relative;
+  width: 80%;
+  height: 75dvh;
+  margin: 3rem auto;
+  overflow: hidden;
+
+  grid-template-rows: 22% 1fr 42%;
+  display: grid;
+  grid-template-columns: 18% 1fr;
+
+  .page_title_frame{
+    position: absolute;
+  }
+}
+.menu_bg{
+  z-index: -3;
+  position: absolute;
+  width:100%;
+  top: -150px;
+}
+.menu_black_box{
+  position: absolute;
+  background-color: $black;
+  grid-row: 3 / 4;
+  grid-column: span2;
+  width: 100%;
+  height: calc(100% - 12px);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-top: 12px;
+}
+.store_menu_item{
+  position: absolute;
+  top: 400px;
+  max-width: 270px;
+  max-height: 400px;
+  overflow: hidden;
+}
 .collection_card{
   height:auto;
 }
@@ -263,9 +302,12 @@ nav{
   overflow: hidden;
   max-width: 450px;
   max-height: 300px;
+  display: flex;
+  justify-content: flex-end;
 }
 .card_img{
-  max-height: 350px;
+  max-height: 300px;
+  align-self: end;
 }
 .card_text_box{
   padding: 10px 20px 20px;

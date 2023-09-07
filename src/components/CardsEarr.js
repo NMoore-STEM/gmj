@@ -1,7 +1,7 @@
 import {Component} from 'react';
-import stockData from '../data/necklaces.json';
+import stockData from '../data/earrings.json';
 
-class CardsNeck extends Component{
+class CardsEarr extends Component{
     render(){
 
         return(
@@ -11,7 +11,7 @@ class CardsNeck extends Component{
                             
                         <div className="item_card" key={ item.id }>
                             <div className="item_img_frame">
-                                <img className="card_img" src={require("../images/necklaces/" + item.id + ".png")} alt={""} />
+                                <img className="card_img" src={require("../images/earrings/" + item.id + ".png")} alt={""} />
                             </div>
                             <div className="card_text_box">
                                 <div className="card_text_left">
@@ -28,4 +28,4 @@ class CardsNeck extends Component{
     }
 }
 
-export default CardsNeck
+export default CardsEarr

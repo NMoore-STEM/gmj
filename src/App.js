@@ -14,18 +14,20 @@ import Earrings from './pages/Earrings';
 import Charms from './pages/Charms';
 import Sale from './pages/Sale';
 // import ItemPage from './pages/itempage';
+import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
     return (
         <>
         <div id="main">
             <Header />
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={ <Home/> } />
                 {/* <Route path="about" element={ <About/> } /> */}
                 <Route path="contact" element={ <Contact/> } />
                 <Route path="store" element={ <StoreFrame/> }>
-                    <Route path="/store/" element={ <Store/>} />
+                    <Route path="/store" element={ <Store/>} />
                     <Route path="sale" element={ <Sale/> } />
                     <Route path="necklaces" element={ <Necklaces/> } />
                     <Route path="bracelets" element={ <Bracelets/> } />
