@@ -215,8 +215,10 @@ nav{
 .store_menu{
   position: relative;
   width: 80%;
-  height: 75dvh;
-  margin: 3rem auto;
+  // height: 75dvh;
+  // margin: 3rem auto;
+  height: 70dvh;
+  margin: 3rem auto 20vh;
   overflow: hidden;
 
   grid-template-rows: 22% 1fr 42%;
@@ -224,7 +226,8 @@ nav{
   grid-template-columns: 18% 1fr;
 
   .page_title_frame{
-    position: absolute;
+    // position: absolute;
+    bottom: -30px;
   }
 }
 .menu_bg{
@@ -236,20 +239,74 @@ nav{
 .menu_black_box{
   position: absolute;
   background-color: $black;
-  grid-row: 3 / 4;
+  // grid-row: 3 / 4;
   grid-column: span2;
   width: 100%;
   height: calc(100% - 12px);
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  // display: grid;
+  // grid-template-columns: repeat(5, 1fr);
   padding-top: 12px;
+  grid-row-start: 3;
+  .page_title_frame{
+    position: absolute;
+    bottom: -30px;
+  }
+}
+.store_menu_item_area{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  // overflow: hidden;
 }
 .store_menu_item{
-  position: absolute;
-  top: 400px;
-  max-width: 270px;
-  max-height: 400px;
-  overflow: hidden;
+  max-width: 20%;
+  // max-height: 400px;
+  // overflow: hidden;
+  transition: all 400ms ease-in;
+  a{
+    // position: absolute;
+    // max-height: calc(100% - 12px);
+    height: 100%;
+    // width: 20%;
+    overflow: hidden;
+    // display: grid;
+    display: flex;
+    // justify-content: flex-end;
+    justify-content: center;
+  }
+
+  // &:hover,
+  // &:focus-visible{
+  //   max-width: 26%;
+  //   transition: all 400ms ease-in;
+  // }
+
+  // &:not(focus-visible){
+  //   max-width: 18.5%;
+  //   transition: all 400ms ease-in;
+  // }
+  // img{
+  //   align-self: center;
+  // }
+}
+// below used in className ternary in pages/Store
+.hovered_item{
+  width: 26%;
+  transition: all 400ms ease-in;
+}
+.not_hovered_item{
+  width: 18.5%;
+  transition: all 400ms ease-in;
+}
+// .store_menu_item:focus-visible{
+//   max-width: 30%;
+//   transition: all 400ms ease-in;
+// }
+.top_title{
+  z-index: 5;
+  h5{
+    font-size: 2vw;
+  }
 }
 .collection_card{
   height:auto;
