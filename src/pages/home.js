@@ -12,7 +12,7 @@ class Home extends Component{
                 <div className="general_splash">
                     <img src={require("../images/general_splash_01.png")} alt={"Formal couple seated at opera"} />
                 </div>
-                <CollectionScroll />
+                {/* <CollectionScroll /> */}
             </>
         )
     }
