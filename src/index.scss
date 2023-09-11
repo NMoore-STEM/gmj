@@ -185,14 +185,18 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 40%;
+  // max-width: 40%;
   position: relative;
   h3{
     font-size: 6.5rem;
     white-space: pre-wrap;
     word-break: break-all;
-    max-width: 65%;
+    max-width: 25%;
     padding: 4rem 0 4rem 4rem;
+
+    z-index: 5;
+  color: white;
+  mix-blend-mode: difference;
   }
 }
 .collection_deco{
@@ -218,7 +222,7 @@ nav{
   display: grid;
   grid-template-columns: 18% 1fr;
   .page_title_frame{
-    bottom: -30px;
+    margin-left: 3rem;
   }
 }
 .menu_bg_deco{
@@ -274,6 +278,9 @@ nav{
     flex-grow: 2;
     transition: all 250ms ease-in;
   }
+  .page_title_frame{
+    margin-left: 1rem;
+  }
 }
 .store_menu_item_area_d{
   margin: 0 auto;
@@ -313,11 +320,15 @@ nav{
 .top_title{
   z-index: 5;
   h5{
-    font-size: 2vw;
+    font-size: 1.6vw;
+    white-space: nowrap;
   }
 }
 .collection_card{
   height:auto;
+}
+.coll_img{
+  z-index: 2
 }
 .page_container{
   display: flex;
@@ -385,6 +396,12 @@ nav{
   font-family: $heading-font;
   text-overflow: elipses;
   max-width: 42ch;
+}
+.null_price{
+  text-decoration: line-through;
+}
+.custom_container{
+  margin: 12rem auto;
 }
 .custom_body{
   font-size: 2rem;
