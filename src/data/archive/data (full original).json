@@ -1,6 +1,7 @@
 [
    {
    "id": "001",
+   "coll": "no",
    "type":"necklace",
    "name":"Tunisian",
    "shortDescr":"Inspired by the famous North-African city that touches the Mediterranean Sea.",
@@ -14,6 +15,7 @@
    "img":"001.png"
 },{
    "id":"002",
+   "coll": "no",
    "type":"necklace",
    "name":"Coober Pedy",
    "shortDescr":"From the hidden depths of Australia, this pendant embodies the treasure that lies within.",
@@ -27,6 +29,7 @@
    "img":"002.png"
 },{
    "id":"003",
+   "coll": "no",
    "type":"necklace",
    "name":"Barahona",
    "shortDescr":"This rare blue larimar comes from the Dominican Republic and is not found anywhere else in the world.",
@@ -40,6 +43,7 @@
    "img":"003.png"
 },{
    "id":"004",
+   "coll": "no",
    "type":"necklace",
    "name":"Borea et Australis",
    "shortDescr":"With precious stones from the northern hemisphere and the southern hemisphere, this pendant makes a striking addition to your collection.",
@@ -53,6 +57,7 @@
    "img":"004.png"
 },{
    "id":"005",
+   "coll": "no",
    "type":"necklace",
    "name":"Iona Cross",
    "shortDescr":"A cross pendant bearing rare earth from Nova Scotia and New York.",
@@ -66,6 +71,7 @@
    "img":"005.png"
 },{
    "id":"006",
+   "coll": "no",
    "type":"necklace",
    "name":"Zambian Jewel",
    "shortDescr":"A stunning beauty unearthed from the wilds of Zambia.",
@@ -79,6 +85,7 @@
    "img":"006.png"
 },{
    "id":"007",
+   "coll": "no",
    "type":"necklace",
    "name":"Amano Crest",
    "shortDescr":"A long forgotten royal crest from a long forgotten, fantastic land.",
@@ -92,6 +99,7 @@
    "img":"007.png"
 },{
    "id":"008",
+   "coll": "02",
    "type":"necklace",
    "name":"Pearl of the Earth",
    "shortDescr":"Magnificent rose quartz pendant adorned with pink conch pearls and howlite shards.",
@@ -105,6 +113,7 @@
    "img":"008.png"
 },{
    "id":"009",
+   "coll": "no",
    "type":"necklace",
    "name":"Son Uchi",
    "shortDescr":"Japanese-inspired gold necklace.  The name translates loosely to 'Three family houses.'",
@@ -118,6 +127,7 @@
    "img":"009.png"
 },{
    "id":"010",
+   "coll": "01",
    "type":"necklace",
    "name":"The Grand Cartouche",
    "shortDescr":"Our most elite offering.  Extravagance personified.",
@@ -131,6 +141,7 @@
    "img":"010.png"
 },{
    "id":"011",
+   "coll": "01",
    "type":"necklace",
    "name":"Tyrian Medallion",
    "shortDescr":"Deep purples and timeless gold are the theme of this piece.",
@@ -144,6 +155,7 @@
    "img":"011.png"
 },{
    "id":"012",
+   "coll": "01",
    "type":"necklace",
    "name":"Star of Andalusia",
    "shortDescr":"This gleaming pendant evokes the spirit of southern Spain, Andalusia.",
@@ -157,6 +169,7 @@
    "img":"012.png"
 },{
    "id":"013",
+   "coll": "01",
    "type":"necklace",
    "name":"The Palace Seal",
    "shortDescr":"There is a hidden door, deep in the Sahara.  Only one key exists which can open its forgotten halls.",
@@ -170,6 +183,7 @@
    "img":"013.png"
 },{
    "id":"014",
+   "coll": "02",
    "type":"necklace",
    "name":"Compass of Time",
    "shortDescr":"Rose quartz pendant complimented with one-of-a-kind pearls from fabled Lake Biwa in Japan.",
@@ -183,6 +197,7 @@
    "img":"014.png"
 },{
    "id":"015",
+   "coll": "02",
    "type":"necklace",
    "name":"Mason's Guide",
    "shortDescr":"Pure, white howlite pendant fashioned after a mason's plumb line.  Let it's point keep your path true.",
@@ -196,6 +211,7 @@
    "img":"015.png"
 },{
    "id":"016",
+   "coll": "02",
    "type":"necklace",
    "name":"Fragment of Antiquity",
    "shortDescr":"A polished sliver of marble from ancient Mediterranean statue ruins.",
@@ -209,6 +225,7 @@
    "img":"016.png"
 },{
    "id":"017",
+   "coll": "no",
    "type":"necklace",
    "name":"Kyoto Kika",
    "shortDescr":"Eye-catching geometric pendant hung from silver chain strung with howlite, rose quartz and Biwa pearls.",
@@ -222,6 +239,7 @@
    "img":"017.png"
 },{
    "id":"018",
+   "coll": "no",
    "type":"necklace",
    "name":"Lilac Throne",
    "shortDescr":"Massive chunks of sapphire gilded with silver and gold.  Can be worn as a necklace, but intended to be a show piece.",
@@ -235,6 +253,7 @@
    "img":"018.png"
 },{
     "id":"019",
+    "coll": "no",
     "type":"bracelets",
     "name":"",
     "shortDescr":"",
@@ -248,7 +267,8 @@
     "img":""
  },{
     "id":"020",
-    "type":"necklace",
+    "coll": "no",
+    "type":"bracelets",
     "name":"",
     "shortDescr":"",
     "fullDescr":"",
@@ -261,7 +281,8 @@
     "img":""
  },{
     "id":"021",
-    "type":"necklace",
+    "coll": "no",
+    "type":"bracelets",
     "name":"",
     "shortDescr":"",
     "fullDescr":"",
@@ -274,7 +295,8 @@
     "img":""
  },{
     "id":"022",
-    "type":"necklace",
+    "coll": "no",
+    "type":"bracelets",
     "name":"",
     "shortDescr":"",
     "fullDescr":"",
@@ -287,7 +309,8 @@
     "img":""
  },{
     "id":"023",
-    "type":"necklace",
+    "coll": "no",
+    "type":"bracelets",
     "name":"",
     "shortDescr":"",
     "fullDescr":"",
@@ -300,7 +323,8 @@
     "img":""
  },{
     "id":"024",
-    "type":"necklace",
+    "coll": "no",
+    "type":"bracelets",
     "name":"",
     "shortDescr":"",
     "fullDescr":"",
@@ -313,7 +337,8 @@
     "img":""
  },{
     "id":"025",
-    "type":"necklace",
+    "coll": "no",
+    "type":"bracelets",
     "name":"",
     "shortDescr":"",
     "fullDescr":"",
@@ -326,7 +351,8 @@
     "img":""
  },{
     "id":"026",
-    "type":"necklace",
+    "coll": "no",
+    "type":"bracelets",
     "name":"",
     "shortDescr":"",
     "fullDescr":"",
@@ -339,7 +365,8 @@
     "img":""
  },{
     "id":"027",
-    "type":"necklace",
+    "coll": "no",
+    "type":"bracelets",
     "name":"",
     "shortDescr":"",
     "fullDescr":"",
@@ -352,7 +379,8 @@
     "img":""
  },{
     "id":"028",
-    "type":"necklace",
+    "coll": "no",
+    "type":"bracelets",
     "name":"",
     "shortDescr":"",
     "fullDescr":"",
@@ -365,7 +393,8 @@
     "img":""
  },{
     "id":"029",
-    "type":"necklace",
+    "coll": "no",
+    "type":"bracelets",
     "name":"",
     "shortDescr":"",
     "fullDescr":"",
@@ -378,7 +407,8 @@
     "img":""
  },{
     "id":"030",
-    "type":"necklace",
+    "coll": "no",
+    "type":"bracelets",
     "name":"",
     "shortDescr":"",
     "fullDescr":"",
@@ -391,11 +421,12 @@
     "img":""
  },{
     "id":"031",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Alexandrian",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"550",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -404,11 +435,12 @@
     "img":""
  },{
     "id":"032",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Shiva's Tears",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"200",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -417,11 +449,12 @@
     "img":""
  },{
     "id":"033",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Celestial Journey",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"300",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -430,11 +463,12 @@
     "img":""
  },{
     "id":"034",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Crimson Dignity",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"850",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -443,11 +477,12 @@
     "img":""
  },{
     "id":"035",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Burmese Relic",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"675",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -456,11 +491,12 @@
     "img":""
  },{
     "id":"036",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Dusky Blessing",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"450",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -469,11 +505,12 @@
     "img":""
  },{
     "id":"037",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Pearls of the Earth",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"220",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -482,11 +519,12 @@
     "img":""
  },{
     "id":"038",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Jasper Elegance",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"250",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -495,11 +533,12 @@
     "img":""
  },{
     "id":"039",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Phoenix Tears",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"150",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -508,11 +547,12 @@
     "img":""
  },{
     "id":"040",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Clarity from the Past",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"220",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -521,11 +561,12 @@
     "img":""
  },{
     "id":"041",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Rose and Jasper",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"180",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -534,11 +575,12 @@
     "img":""
  },{
     "id":"042",
+    "coll": "no",
     "type":"earrings",
-    "name":"",
+    "name":"Guardian Tears",
     "shortDescr":"",
     "fullDescr":"",
-    "price":"",
+    "price":"220",
     "onSale":"",
     "salePrice":"",
     "materials":"",
@@ -547,6 +589,7 @@
     "img":""
  },{
     "id":"043",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -560,6 +603,7 @@
     "img":""
  },{
     "id":"044",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -573,6 +617,7 @@
     "img":""
  },{
     "id":"045",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -586,6 +631,7 @@
     "img":""
  },{
     "id":"046",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -599,6 +645,7 @@
     "img":""
  },{
     "id":"047",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -612,6 +659,7 @@
     "img":""
  },{
     "id":"048",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -625,6 +673,7 @@
     "img":""
  },{
     "id":"049",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -638,6 +687,7 @@
     "img":""
  },{
     "id":"050",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -651,6 +701,7 @@
     "img":""
  },{
     "id":"051",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -664,6 +715,7 @@
     "img":""
  },{
     "id":"052",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -677,6 +729,7 @@
     "img":""
  },{
     "id":"053",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -690,6 +743,7 @@
     "img":""
  },{
     "id":"054",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -703,6 +757,7 @@
     "img":""
  },{
     "id":"055",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -716,6 +771,7 @@
     "img":""
  },{
     "id":"056",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -729,6 +785,7 @@
     "img":""
  },{
     "id":"057",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -742,6 +799,7 @@
     "img":""
  },{
     "id":"058",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -755,6 +813,7 @@
     "img":""
  },{
     "id":"059",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -768,6 +827,7 @@
     "img":""
  },{
     "id":"060",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -781,6 +841,7 @@
     "img":""
  },{
     "id":"061",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -794,6 +855,7 @@
     "img":""
  },{
     "id":"062",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -807,6 +869,7 @@
     "img":""
  },{
     "id":"063",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -820,6 +883,7 @@
     "img":""
  },{
     "id":"064",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -833,6 +897,7 @@
     "img":""
  },{
     "id":"065",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
@@ -846,6 +911,7 @@
     "img":""
  },{
     "id":"066",
+    "coll": "no",
     "type":"charm",
     "name":"",
     "shortDescr":"",
