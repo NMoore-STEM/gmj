@@ -1,12 +1,17 @@
 import {Component} from 'react';
-import stockData from '../data/earrings.json';
+// import stockData from '../data/earrings.json';
+import fullData from '../data/archive/data (full original).json'
 
 class CardsEarr extends Component{
     render(){
 
+        const filterEarr = fullData.filter(
+            (earr) => earr.type === "earrings"
+            );
+
         return(
             <div className="card_container">
-                    {stockData && stockData.map(item => {
+                    {filterEarr.map(item => {
                         return (
                             
                         <div className="item_card" key={ item.id }>
