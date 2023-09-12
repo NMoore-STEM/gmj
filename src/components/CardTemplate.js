@@ -1,21 +1,20 @@
 import {Component} from 'react';
-// import stockData from '../data/bracelets.json';
-import stockData from '../data/archive/data (full original).json'
+// import stockData from '../data/necklaces.json';
+// import { filtered } from {("../pages/" + useLocation())};
+import { filtered } from '../pages/Necklaces';
 
-class CardsBrace extends Component{
+
+
+class CardTemplate extends Component{
     render(){
-        const filterBrace = stockData.filter(
-            (sale) => sale.type === "bracelets"
-            );
-
         return(
             <div className="card_container">
-                    {filterBrace && filterBrace.map(item => {
+                    {filtered && filtered.map(item => {
                         return (
                             
                         <div className="item_card" key={ item.id }>
                             <div className="item_img_frame">
-                                <img className="card_img" src={require("../images/" + item.type + "/" + item.id + ".png")} alt={""} />
+                                <img className="card_img" src={require("../images/necklaces/" + item.id + ".png")} alt={""} />
                             </div>
                             <div className="card_text_box">
                                 <div className="card_text_left">
@@ -32,4 +31,4 @@ class CardsBrace extends Component{
     }
 }
 
-export default CardsBrace
+export default CardTemplate
