@@ -40,6 +40,7 @@ $body-font: 'Bariol','Nunito';
 }
 html {
   scrollbar-color: $dark-gray $black;
+  scroll-behavior: smooth;
 }
 #main{
   display: flex;
@@ -176,12 +177,14 @@ nav{
 }
 .collection_frame{
   width: 80%;
-  margin: 0 auto;
+  height: 80dvh;
+  // margin: 0 auto;
   outline: 3px solid $black;
   outline-offset: -3px;
   margin: 4rem auto;
 }
 .collection_container{
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -199,12 +202,28 @@ nav{
   mix-blend-mode: difference;
   }
 }
+.collection_scroll{
+  overflow-x: scroll;
+}
 .collection_deco{
   position: absolute;
-  height: 20rem;
-  width: 20rem;
+  // height: 20rem;
+  // width: 20rem;
+  height: 30rem;
+  width: 24rem;
   background-color: $gray;
   z-index: -100;
+}
+.collection_card{
+  display: flex;
+  position: absolute;
+  margin: 10dvh 0;
+  padding: 0 800px 0 500px;
+  overflow-x: scroll;
+  gap: 8vw;
+}
+.coll_img{
+  z-index: 2
 }
 .general_splash{
   margin:0 auto;
@@ -323,12 +342,6 @@ nav{
     font-size: 1.6vw;
     white-space: nowrap;
   }
-}
-.collection_card{
-  height:auto;
-}
-.coll_img{
-  z-index: 2
 }
 .page_container{
   display: flex;

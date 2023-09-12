@@ -7,7 +7,9 @@ class CollectionScroll extends Component {
             <div className="collection_frame">
                 <div className="collection_container">
                     <h3>COLLECTION</h3>
-                    <CollectionScrollItem />
+                    <div className="collection_scroll">
+                        <CollectionScrollItem />
+                    </div>
                     <div className="collection_deco"></div>
                 </div>
             </div>
