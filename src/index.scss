@@ -325,7 +325,7 @@ nav{
   background-image: url('/images/necklaces/016.png');
 }
 .menu_neck_link{
-  background-image: url('/images/necklaces/006.png');
+  background-image: url('/images/necklaces/014.png');
 }
 .menu_brace_link{
   background-image: url('/images/bracelets/022.png');
@@ -382,6 +382,10 @@ nav{
   overflow: hidden;
   box-shadow: 0 4px 4px rgba(0,0,0,0.25);
   margin: 2rem 0.5rem;
+
+  display: grid;
+  grid-template-columns: 350px;
+  grid-template-rows: 300px 140px;
 }
 .item_img_frame{
   overflow: hidden;
@@ -397,21 +401,57 @@ nav{
 .card_text_box{
   padding: 10px 20px 20px;
   display: flex;
+
+  display: grid;
+  grid-template-columns: 1fr calc(80px - 20px);
+  grid-template-rows: calc(60px - 10px) 1fr;
 }
 .card_text_left{
-  width: 80%;
+  // width: 80%;
+}
+.price_container{
+  // align-items: right;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  text-align: right;
+}
+.current_price{
+  font-weight: bolder;
+  font-size: larger;
 }
 .card_title{
   font-family: $heading-font;
   font-size: 25px;
+  line-height: 0.9;
+  align-self: center;
 }
 .item_descr_short{
   font-family: $heading-font;
-  text-overflow: elipses;
+  text-overflow: ellipsis;
+  overflow: hidden;
   max-width: 42ch;
+  grid-column-start: 1;
+}
+.sale_tag{
+  position: absolute;
+  background-color: $white;
+  text-align: center;
+  font-family: $heading-font;
+  color: $black;
+  outline: 4px solid $black;
+  outline-offset: -4px;
+  -webkit-text-stroke: 1px $black;
+  padding: 0.6rem 1.2rem;
+}
+.no_sale_tag{
+  display: none;
 }
 .null_price{
   text-decoration: line-through;
+  color: $dark-gray;
+}
+.no_sale_price{
+  display: none;
 }
 .custom_container{
   margin: 12rem auto;
