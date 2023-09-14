@@ -13,7 +13,7 @@ import Bracelets from './pages/Bracelets';
 import Earrings from './pages/Earrings';
 import Charms from './pages/Charms';
 import Sale from './pages/Sale';
-// import ItemPage from './pages/itempage';
+import ItemDetails from './pages/ItemDetails';
 import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
@@ -33,6 +33,7 @@ export default function App() {
                     <Route path="bracelets" element={ <Bracelets/> } />
                     <Route path="earrings" element={ <Earrings/> } />
                     <Route path="charms" element={ <Charms/> } />
+                    <Route path="/store/:id" element={ <ItemDetails/> } />
                 </Route>
                 <Route path="necklaces" element={ <Necklaces/> } />
                 <Route path="bracelets" element={ <Bracelets/> } />

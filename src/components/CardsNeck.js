@@ -1,4 +1,5 @@
 import {Component} from 'react';
+import { Link } from "react-router-dom";
 import stockData from '../data/archive/data (full original).json';
 
 class CardsNeck extends Component{
@@ -11,7 +12,8 @@ class CardsNeck extends Component{
                 {filtered && filtered.map(item => {
                     return (
                         
-                    <div className="item_card" key={ item.id }>
+                    <Link to={"/store/" + item.id} className="item_card" key={ item.id }>
+                    {/* <div className="item_card" key={ item.id }> */}
                         <div className="item_img_frame">
                             <div className={item.onSale ? "sale_tag" : "no_sale_tag"}>30&#37; OFF</div>
                             <img className="card_img" src={require("../images/" + item.type + "/" + item.id + ".png")} alt={""} />
@@ -26,7 +28,8 @@ class CardsNeck extends Component{
                                 <p className={item.onSale ? "current_price" : "no_sale_price"}>{item.salePrice}</p>
                             </div>
                         </div>
-                    </div>
+                    {/* </div> */}
+                    </Link>
                     
                 )})}
             </div>
