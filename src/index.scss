@@ -465,6 +465,14 @@ nav{
   grid-column-start: 1;
   position: absolute;
   grid-row-start: 2;
+  text-transform: uppercase;
+  font-family: $heading-font;
+  font-size: 3rem;
+  // mix-blend-mode: difference;
+  // color: $white;
+  align-self: end;
+  grid-row-end: 1;
+  margin-left: 6rem;
 }
 .item_details_card{
   width: 80%;
@@ -475,9 +483,9 @@ nav{
   // grid-template-columns: 30% 60% 8% 30%;
   grid-template-columns: 20% 48% 7% 25%;
   // grid-template-rows: 20% 15% 30% 20% 10%;
-  grid-template-rows: 25% 20% 35% 20% 10%;
+  grid-template-rows: 20% 20% 35% 20% 5%;
   position: relative;
-  height: 65dvh;
+  height: 68dvh;
   
 }
 .details_side_panel{
@@ -498,7 +506,7 @@ nav{
 .item_details_text{
   width:100%;
   grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-end: 5;
   grid-row-start: 3;
   position: absolute;
   background-color: white;
@@ -511,6 +519,9 @@ nav{
 }
 .item_details_title{
   color: $black;
+  font-size: 2rem;
+  padding: 0 1.3rem;
+  align-self: center;
 }
 .item_details_price{
   text-align: right;
@@ -525,11 +536,29 @@ nav{
     font-size: 1rem;
     font-weight: normal;
   }
+  // &::after{
+  //   content: "_";
+  // }
 }
 .item_descr_long{
   // width: 100%;
   padding: 0 2.3rem;
   text-align: right;
+}
+.add_cart_button{
+  cursor: pointer;
+  width: auto;
+  height: min-content;
+  padding: 0.6rem 2.3rem;
+  justify-self: center;
+  align-self: top;
+  white-space: nowrap;
+  border: none;
+  outline: none;
+  box-shadow: 0 15px 4px -10px $black;
+}
+.item_materials{
+  margin: 4rem auto;
 }
 .custom_container{
   margin: 12rem auto;
