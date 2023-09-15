@@ -1,5 +1,6 @@
 import {useParams} from "react-router-dom";
 import stockData from '../data/archive/data (full original).json';
+import AddCartButton from '../components/AddCartButton'
 
 
 function ItemDetails() {
@@ -19,7 +20,7 @@ function ItemDetails() {
                     <div>Back to All Products</div>
                     <div>Return to Home</div>
                 </div>
-                <div className='details_product_type'>{prodDetails.type}</div>
+                <div className='details_product_type page_title_frame'>{prodDetails.type}</div>
                 {/* <div 
                     className='item_details_card_img'
                     // backgroundImage={require("../images/" + prodDetails.type + "/" + prodDetails.id + ".png")}
@@ -34,6 +35,7 @@ function ItemDetails() {
                     <h3 className='item_details_title'>{prodDetails.name}</h3>
                     <div className='item_details_price'>{prodDetails.price}</div>
                     <div className='item_descr_long'>{prodDetails.fullDescr}</div>
+                    <AddCartButton />
                 </div>
             </div>
             <div className='item_materials'>
