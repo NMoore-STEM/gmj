@@ -12,7 +12,11 @@ class CardsNeck extends Component{
                 {filtered && filtered.map(item => {
                     return (
                         
-                    <Link to={"/store/" + item.id} className="item_card" key={ item.id }>
+                    <Link 
+                        to={"/store/" + item.id} 
+                        className="item_card" 
+                        key={ item.id }
+                        data={filtered}>
                     {/* <div className="item_card" key={ item.id }> */}
                         <div className="item_img_frame">
                             <div className={item.onSale ? "sale_tag" : "no_sale_tag"}>30&#37; OFF</div>
