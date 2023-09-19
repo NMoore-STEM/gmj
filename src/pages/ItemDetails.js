@@ -17,10 +17,12 @@ function ItemDetails() {
         <div className="details_page_container">
             <div className='item_details_card' key={prodDetails.id}>
                 <div className='details_side_panel'>
-                    <div>Back to All Products</div>
-                    <div>Return to Home</div>
+                    <div className='details_all_link'>Back to All Products</div>
+                    <div className='details_home_link'>Return to Home</div>
                 </div>
-                <div className='details_product_type page_title_frame'>{prodDetails.type}</div>
+                <div className='product_type_bg'>
+                    <div className='details_product_type page_title_frame'>{prodDetails.type}</div>
+                </div>
                 {/* <div 
                     className='item_details_card_img'
                     // backgroundImage={require("../images/" + prodDetails.type + "/" + prodDetails.id + ".png")}
@@ -39,9 +41,13 @@ function ItemDetails() {
                 </div>
             </div>
             <div className='item_materials'>
+                <h4 className='details_mat_heading'>Materials</h4>
                 <div>{prodDetails.materials}</div>
             </div>
-            <div className='item_sizes'>{prodDetails.sizes}</div>
+            <div className='item_sizes'>
+                <h4 className='details_size_heading'>Sizes Available</h4>
+                <div className='item_sizes'>{prodDetails.sizes}</div>
+            </div>
             {/* <ItemWrapping /> */}
         </div>
     );
