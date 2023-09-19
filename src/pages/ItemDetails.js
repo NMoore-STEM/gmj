@@ -40,15 +40,19 @@ function ItemDetails() {
                     <AddCartButton />
                 </div>
             </div>
-            <div className='item_materials'>
-                <h4 className='details_mat_heading'>Materials</h4>
+            <div className='item_sub'>
+                <h4 className='details_sub_heading'>Materials</h4>
                 <div>{prodDetails.materials}</div>
             </div>
-            <div className='item_sizes'>
-                <h4 className='details_size_heading'>Sizes Available</h4>
+            <div className='item_sub'>
+                <h4 className='details_sub_heading'>Sizes Available</h4>
                 <div className='item_sizes'>{prodDetails.sizes}</div>
             </div>
             {/* <ItemWrapping /> */}
+            <div className='item_sub'>
+                <h4 className='details_sub_heading'>Luxury Giftwrapping Options</h4>
+                <div className='item_sizes'>{prodDetails.sizes}</div>
+            </div>
         </div>
     );
 }
