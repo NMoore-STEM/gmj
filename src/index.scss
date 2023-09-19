@@ -23,7 +23,7 @@ $white: #FFF;
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 $heading-font: 'Urbanist',sans-serif;
-$body-font: 'Bariol','Nunito';
+$body-font: 'Nunito','Bariol';
 
 * {
   margin: 0;
@@ -462,17 +462,17 @@ nav{
   margin: 1.5rem 0 6rem 0;
 }
 .details_product_type{
-  grid-column-start: 1;
-  position: absolute;
-  grid-row-start: 2;
+  // grid-column-start: 1;
+  // position: absolute;
+  // grid-row-start: 2;
   text-transform: uppercase;
   font-family: $heading-font;
-  font-size: 3rem;
+  font-size: 2.3rem;
   // mix-blend-mode: difference;
   // color: $white;
-  align-self: end;
-  grid-row-end: 1;
-  margin-left: 6rem;
+  // align-self: end;
+  // grid-row-end: 1;
+  // margin-left: 6rem;
 }
 .item_details_card{
   width: 80%;
@@ -492,6 +492,25 @@ nav{
   grid-column-start: 1;
   grid-row-start: 1;
   grid-row-end: 6;
+  display: grid;
+  grid-template-rows: 20% 70% 10%;
+  // justify-content: end;
+  // text-align: right;
+  padding-left: 3.5rem;
+  font-family: $body-font;
+}
+.details_all_link{
+  grid-row-start: 2;
+  margin-top: 1.6rem;
+  &::before{
+    content: url(/assets/arrow-gmj.svg);
+  }
+}
+.details_home_link{
+  grid-row-start: 3;
+  &::before{
+    content: url(/assets/home-icon.svg);
+  }
 }
 .item_details_card_img{
   width: 100%;
@@ -502,6 +521,7 @@ nav{
   grid-row-end: 6;
   height: 100%;
   aspect-ratio: 1/1;
+  object-fit: contain;
 }
 .item_details_text{
   width:100%;
@@ -516,6 +536,17 @@ nav{
   // grid-template-rows: 25% 15% 30% 30%;
   grid-template-rows: 25% 15% 40% 20%;
   box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
+.product_type_bg{
+  // width: 100%;
+  grid-column-start: 1;
+  position: absolute;
+  align-self: end;
+  grid-row-end: 2;
+  margin-left: 3rem;
+  // backdrop-filter: blur(4px);
+  // backdrop-filter: grayscale(100%) brightness(100%);
+  // backdrop-filter: grayscale(50%) brightness(150%) blur(2px);
 }
 .item_details_title{
   color: $black;
@@ -557,8 +588,14 @@ nav{
   outline: none;
   box-shadow: 0 15px 4px -10px $black;
 }
-.item_materials{
+.item_sub{
   margin: 4rem auto;
+  width: clamp(300px, 80%, 900px);
+}
+.details_sub_heading{
+  font-family: $heading-font;
+  font-size: 3rem;
+  border-bottom: 2px solid $med-gray;
 }
 .custom_container{
   margin: 12rem auto;
