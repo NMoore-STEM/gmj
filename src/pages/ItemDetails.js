@@ -1,6 +1,8 @@
+// import {useState} from "react";
 import {useParams} from "react-router-dom";
 import stockData from '../data/archive/data (full original).json';
-import AddCartButton from '../components/AddCartButton'
+import AddCartButton from '../components/AddCartButton';
+import ItemWrapping from '../components/ItemWrapping'
 
 
 function ItemDetails() {
@@ -8,9 +10,8 @@ function ItemDetails() {
     const prodDetails = stockData.find(
         items => items.id === id
     );
-    // var prodImage = {
-    //     backgroundImage: "url("")"
-    // };
+    const prodSizes = Array.from(prodDetails.sizes);
+    // const [selectedSize, setSelectedSize] = useState(false);
     console.log(useParams());
     console.log(id);
     return(
@@ -23,15 +24,6 @@ function ItemDetails() {
                 <div className='product_type_bg'>
                     <div className='details_product_type page_title_frame'>{prodDetails.type}</div>
                 </div>
-                {/* <div 
-                    className='item_details_card_img'
-                    // backgroundImage={require("../images/" + prodDetails.type + "/" + prodDetails.id + ".png")}
-                    style={{
-                        // backgroundImage: `url("../images/" + ${prodDetails.type} + "/" + ${prodDetails.id} + ".png")`,
-                        backgroundImage: `url(${"../images/" + prodDetails.type + "/" + prodDetails.id + ".png"})`,
-                        // C:\accumulation\code projects\git hub\gmj-main-app\src\images
-                    }}
-                ></div> */}
                 <img className='item_details_card_img' src={require("../images/" + prodDetails.type + "/" + prodDetails.id + ".png")} alt={""} />
                 <div className='item_details_text'>
                     <h3 className='item_details_title'>{prodDetails.name}</h3>
@@ -46,13 +38,15 @@ function ItemDetails() {
             </div>
             <div className='item_sub'>
                 <h4 className='details_sub_heading'>Sizes Available</h4>
-                <div className='item_sizes'>{prodDetails.sizes}</div>
+                <div className='item_sizes'>
+                    {prodSizes.map((el,i) => (
+                        <div className='item_spec_frame item_spec_size' key={i}>
+                            <span>{el}</span>
+                        </div>
+                    ))}
+                </div>
             </div>
-            {/* <ItemWrapping /> */}
-            <div className='item_sub'>
-                <h4 className='details_sub_heading'>Luxury Giftwrapping Options</h4>
-                <div className='item_sizes'>{prodDetails.sizes}</div>
-            </div>
+            <ItemWrapping />
         </div>
     );
 }
