@@ -9,8 +9,8 @@
    "price":1450,
    "onSale":false,
    "salePrice":"",
-   "materials":"24K Gold, Lapis",
-   "sizes":"16, 18, 20, 22",
+   "materials":["24K Gold", "Lapis"],
+   "sizes":[16, 18, 20, 22],
    "inventory":10,
    "img":"001.png"
 },{
@@ -23,8 +23,8 @@
    "price":"675",
    "onSale":false,
    "salePrice":"",
-   "materials":"Sterling Silver, Opal, Ruby",
-   "sizes":"16, 18, 20, 22",
+   "materials":["Sterling Silver", "Opal", "Ruby"],
+   "sizes":[16, 18, 20, 22],
    "inventory":"12",
    "img":"002.png"
 },{
@@ -37,8 +37,8 @@
    "price":"350",
    "onSale":false,
    "salePrice":"",
-   "materials":"Sterling Silver, Blue Larimar, Amethyst",
-   "sizes":"16, 18, 20",
+   "materials":["Sterling Silver", "Blue Larimar", "Amethyst"],
+   "sizes":[16, 18, 20],
    "inventory":"6",
    "img":"003.png"
 },{
@@ -51,8 +51,8 @@
    "price":"275",
    "onSale":false,
    "salePric":"",
-   "materials":"Sterling Silver, Opal, Ruby",
-   "sizes":"16, 18, 20",
+   "materials":["Sterling Silver", "Opal", "Ruby"],
+   "sizes":[16, 18, 20],
    "inventory":"8",
    "img":"004.png"
 },{
@@ -65,8 +65,8 @@
    "price":"360",
    "onSale":true,
    "salePrice":"252",
-   "materials":"Sterling Silver, Howlite, Herkimer Diamond",
-   "sizes":"16, 18",
+   "materials":["Sterling Silver", "Howlite", "Herkimer Diamond"],
+   "sizes":[16, 18],
    "inventory":"10",
    "img":"005.png"
 },{
@@ -79,8 +79,8 @@
    "price":"160",
    "onSale":false,
    "salePrice":"",
-   "materials":"Sterling Silver, Amethyst",
-   "sizes":"16, 18, 20, 22",
+   "materials":["Sterling Silver", "Amethyst"],
+   "sizes":[16, 18, 20, 22],
    "inventory":"24",
    "img":"006.png"
 },{
@@ -93,8 +93,8 @@
    "price":"675",
    "onSale":false,
    "salePrice":"",
-   "materials":"Sterling Silver, Amethyst, Blue Quartz",
-   "sizes":"16, 18, 20, 22",
+   "materials":["Sterling Silver", "Amethyst", "Blue Quartz"],
+   "sizes":[16, 18, 20, 22],
    "inventory":"12",
    "img":"007.png"
 },{
@@ -107,8 +107,8 @@
    "price":"260",
    "onSale":true,
    "salePrice":"182",
-   "materials":"Pink Conch Pearl, Rose Quartz, Howlite",
-   "sizes":"20, 22",
+   "materials":["Pink Conch Pearl", "Rose Quartz", "Howlite"],
+   "sizes":[20, 22],
    "inventory":"14",
    "img":"008.png"
 },{
@@ -121,8 +121,8 @@
    "price":"800",
    "onSale":false,
    "salePrice":"",
-   "materials":"24K Gold, Ruby",
-   "sizes":"16, 18, 20, 22",
+   "materials":["24K Gold", "Ruby"],
+   "sizes":[16, 18, 20, 22],
    "inventory":"21",
    "img":"009.png"
 },{
@@ -135,8 +135,8 @@
    "price":"16000",
    "onSale":false,
    "salePrice":"",
-   "materials":"Sterling Silver, 24K Gold, Sapphire, Diamond",
-   "sizes":"18, 20",
+   "materials":["Sterling Silver", "24K Gold", "Sapphire", "Diamond"],
+   "sizes":[18, 20],
    "inventory":"4",
    "img":"010.png"
 },{
@@ -149,8 +149,8 @@
    "price":"1100",
    "onSale":false,
    "salePrice":"",
-   "materials":"24K Gold, Sapphire, Amethyst",
-   "sizes":"18, 20",
+   "materials":["24K Gold", "Sapphire", "Amethyst"],
+   "sizes":[18, 20],
    "inventory":"8",
    "img":"011.png"
 },{
@@ -163,8 +163,8 @@
    "price":"750",
    "onSale":false,
    "salePrice":"",
-   "materials":"Sterling Silver, Sapphire, Ruby",
-   "sizes":"16, 18, 20, 22",
+   "materials":["Sterling Silver", "Sapphire", "Ruby"],
+   "sizes":[16, 18, 20, 22],
    "inventory":"12",
    "img":"012.png"
 },{
@@ -177,8 +177,8 @@
    "price":"3200",
    "onSale":false,
    "salePrice":"",
-   "materials":"Sterling Silver, 24K Gold, Sapphire, Diamond",
-   "sizes":"18, 20",
+   "materials":["Sterling Silver", "24K Gold", "Sapphire", "Diamond"],
+   "sizes":[18, 20],
    "inventory":"8",
    "img":"013.png"
 },{
@@ -191,8 +191,8 @@
    "price":"700",
    "onSale":false,
    "salePrice":"",
-   "materials":"Sterling Silver, Rose Quartz, Biwa Pearl",
-   "sizes":"16, 18, 20, 22",
+   "materials":["Sterling Silver", "Rose Quartz", "Biwa Pearl"],
+   "sizes":[16, 18, 20, 22],
    "inventory":"24",
    "img":"014.png"
 },{
@@ -205,8 +205,8 @@
    "price":"80",
    "onSale":false,
    "salePrice":"",
-   "materials":"Sterling Silver, Howlite",
-   "sizes":"16, 18, 20, 22",
+   "materials":["Sterling Silver", "Howlite"],
+   "sizes":[16, 18, 20, 22],
    "inventory":"24",
    "img":"015.png"
 },{
@@ -219,8 +219,8 @@
    "price":"230",
    "onSale":true,
    "salePrice":"161",
-   "materials":"Sterling Silver, White Marble",
-   "sizes":"16, 18, 20, 22",
+   "materials":["Sterling Silver", "White Marble"],
+   "sizes":[16, 18, 20, 22],
    "inventory":"24",
    "img":"016.png"
 },{
@@ -233,8 +233,8 @@
    "price":"240",
    "onSale":false,
    "salePrice":"",
-   "materials":"Sterling Silver, Rose Quartz, Biwa Pearl, Howlite",
-   "sizes":"18, 20",
+   "materials":["Sterling Silver", "Rose Quartz", "Biwa Pearl", "Howlite"],
+   "sizes":[18, 20],
    "inventory":"12",
    "img":"017.png"
 },{
@@ -247,8 +247,8 @@
    "price":"3200",
    "onSale":false,
    "salePrice":"",
-   "materials":"Sterling Silver, 24K Gold, Sapphire",
-   "sizes":"16, 18, 20, 22",
+   "materials":["Sterling Silver", "24K Gold", "Sapphire"],
+   "sizes":[16, 18, 20, 22],
    "inventory":"10",
    "img":"018.png"
 },{
@@ -261,8 +261,8 @@
     "price":"899",
     "onSale":false,
     "salePrice":"",
-    "materials":"24K Gold, Sapphire, Diamond, Ruby",
-    "sizes":"S, M",
+    "materials":["24K Gold", "Sapphire", "Diamond", "Ruby"],
+    "sizes":["S", "M"],
     "inventory":"12",
     "img":"019.png"
  },{
@@ -275,8 +275,8 @@
     "price":"750",
     "onSale":false,
     "salePrice":"",
-    "materials":"24K Gold, Sapphire, Diamond",
-    "sizes":"S, M",
+    "materials":["24K Gold", "Sapphire", "Diamond"],
+    "sizes":["S", "M"],
     "inventory":"20",
     "img":"020.png"
  },{
@@ -289,8 +289,8 @@
     "price":"800",
     "onSale":false,
     "salePrice":"",
-    "materials":"Sterling Silver, 24K Gold, Lapis, Turquoise, Diamond",
-    "sizes":"S, M",
+    "materials":["Sterling Silver", "24K Gold", "Lapis", "Turquoise", "Diamond"],
+    "sizes":["S", "M"],
     "inventory":"24",
     "img":"021.png"
  },{
@@ -303,8 +303,8 @@
     "price":"480",
     "onSale":false,
     "salePrice":"",
-    "materials":"Sterling Silver, Blue Larimar, Diamond",
-    "sizes":"S, M",
+    "materials":["Sterling Silver", "Blue Larimar", "Diamond"],
+    "sizes":["S", "M"],
     "inventory":"25",
     "img":"022.png"
  },{
@@ -317,8 +317,8 @@
     "price":"450",
     "onSale":false,
     "salePrice":"",
-    "materials":"24K Rose Gold, Mystic Topaz",
-    "sizes":"S, M",
+    "materials":["24K Rose Gold", "Mystic Topaz"],
+    "sizes":["S", "M"],
     "inventory":"16",
     "img":"023.png"
  },{
@@ -331,8 +331,8 @@
     "price":"450",
     "onSale":true,
     "salePrice":"315",
-    "materials":"Sterling Silver, Rose Quartz, Blue Larimar",
-    "sizes":"S, M",
+    "materials":["Sterling Silver", "Rose Quartz", "Blue Larimar"],
+    "sizes":["S", "M"],
     "inventory":"28",
     "img":"024.png"
  },{
@@ -345,7 +345,7 @@
     "price":"3700",
     "onSale":false,
     "salePrice":"",
-    "materials":"Sterling Silver, Lapis, Diamond, Ruby",
+    "materials":["Sterling Silver", "Lapis", "Diamond", "Ruby"],
     "sizes":"S, M",
     "inventory":"12",
     "img":"025.png"
@@ -359,7 +359,7 @@
     "price":"450",
     "onSale":false,
     "salePrice":"",
-    "materials":"24K Gold, Lapis, Diamond",
+    "materials":["24K Gold", "Lapis", "Diamond"],
     "sizes":"S, M",
     "inventory":"24",
     "img":"026.png"
@@ -373,7 +373,7 @@
     "price":"700",
     "onSale":false,
     "salePrice":"",
-    "materials":"Sterling Silver, Turquoise, Lapis",
+    "materials":["Sterling Silver", "Turquoise", "Lapis"],
     "sizes":"S, M",
     "inventory":"17",
     "img":"027.png"
@@ -387,7 +387,7 @@
     "price":"375",
     "onSale":false,
     "salePrice":"",
-    "materials":"Sterling Silver, Blue Larimar",
+    "materials":["Sterling Silver", "Blue Larimar"],
     "sizes":"S, M",
     "inventory":"20",
     "img":"028.png"
@@ -401,7 +401,7 @@
     "price":"325",
     "onSale":false,
     "salePrice":"",
-    "materials":"Sterling Silver, Mystic Topaz",
+    "materials":["Sterling Silver", "Mystic Topaz"],
     "sizes":"S, M",
     "inventory":"28",
     "img":"029.png"
@@ -415,7 +415,7 @@
     "price":"300",
     "onSale":false,
     "salePrice":"",
-    "materials":"Sterling Silver, Blue Larimar, Coral",
+    "materials":["Sterling Silver", "Blue Larimar", "Coral"],
     "sizes":"S, M",
     "inventory":"32",
     "img":"030.png"
