@@ -10,7 +10,11 @@ function ItemDetails() {
     const prodDetails = stockData.find(
         items => items.id === id
     );
+    // const prodMaterials = stockData.find(
+    //     mats => mats.id === id
+    // );
     const prodSizes = Array.from(prodDetails.sizes);
+    const prodMaterials = Array.from(prodDetails.materials);
     // const [selectedSize, setSelectedSize] = useState(false);
     console.log(useParams());
     console.log(id);
@@ -34,7 +38,12 @@ function ItemDetails() {
             </div>
             <div className='item_sub'>
                 <h4 className='details_sub_heading'>Materials</h4>
-                <div>{prodDetails.materials}</div>
+                <div className='item_sizes'>
+                    {prodMaterials.map((el,i) => (
+                        <div className='item_materials' key={i}>{el}</div>
+                    ))}
+                </div>
+                {/* <div>{prodDetails.materials}</div> */}
             </div>
             <div className='item_sub'>
                 <h4 className='details_sub_heading'>Sizes Available</h4>
