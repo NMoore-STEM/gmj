@@ -14,7 +14,9 @@ import Earrings from './pages/Earrings';
 import Charms from './pages/Charms';
 import Sale from './pages/Sale';
 import ItemDetails from './pages/ItemDetails';
-import ScrollToTop from './components/ScrollToTop'
+import ItemDetailsToo from './pages/ItemDetailsToo';
+import ScrollToTop from './components/ScrollToTop';
+import ProductPage from './pages/ProductPage'
 
 export default function App() {
     return (
@@ -34,7 +36,10 @@ export default function App() {
                     <Route path="earrings" element={ <Earrings/> } />
                     <Route path="charms" element={ <Charms/> } />
                     <Route path="/store/:id" element={ <ItemDetails/> } />
+                    <Route path="/store/:type/:id" element={ <ItemDetailsToo/> } />
+                    <Route path="/store/:type" element={ <ProductPage/> } />
                 </Route>
+                {/* Below routes may not be needed */}
                 <Route path="necklaces" element={ <Necklaces/> } />
                 <Route path="bracelets" element={ <Bracelets/> } />
                 <Route path="earrings" element={ <Earrings/> } />
