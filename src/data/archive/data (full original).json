@@ -12,7 +12,8 @@
    "materials":["24K Gold", "Lapis"],
    "sizes":[16, 18, 20, 22],
    "inventory":10,
-   "img":"001.png"
+   "img":"001.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"002",
    "coll": "no",
@@ -26,7 +27,8 @@
    "materials":["Sterling Silver", "Opal", "Ruby"],
    "sizes":[16, 18, 20, 22],
    "inventory":"12",
-   "img":"002.png"
+   "img":"002.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"003",
    "coll": "no",
@@ -40,7 +42,8 @@
    "materials":["Sterling Silver", "Blue Larimar", "Amethyst"],
    "sizes":[16, 18, 20],
    "inventory":"6",
-   "img":"003.png"
+   "img":"003.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"004",
    "coll": "no",
@@ -54,7 +57,8 @@
    "materials":["Sterling Silver", "Opal", "Ruby"],
    "sizes":[16, 18, 20],
    "inventory":"8",
-   "img":"004.png"
+   "img":"004.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"005",
    "coll": "no",
@@ -68,7 +72,8 @@
    "materials":["Sterling Silver", "Howlite", "Herkimer Diamond"],
    "sizes":[16, 18],
    "inventory":"10",
-   "img":"005.png"
+   "img":"005.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"006",
    "coll": "no",
@@ -82,7 +87,8 @@
    "materials":["Sterling Silver", "Amethyst"],
    "sizes":[16, 18, 20, 22],
    "inventory":"24",
-   "img":"006.png"
+   "img":"006.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"007",
    "coll": "no",
@@ -96,7 +102,8 @@
    "materials":["Sterling Silver", "Amethyst", "Blue Quartz"],
    "sizes":[16, 18, 20, 22],
    "inventory":"12",
-   "img":"007.png"
+   "img":"007.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"008",
    "coll": "02",
@@ -110,7 +117,8 @@
    "materials":["Pink Conch Pearl", "Rose Quartz", "Howlite"],
    "sizes":[20, 22],
    "inventory":"14",
-   "img":"008.png"
+   "img":"008.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"009",
    "coll": "no",
@@ -124,7 +132,8 @@
    "materials":["24K Gold", "Ruby"],
    "sizes":[16, 18, 20, 22],
    "inventory":"21",
-   "img":"009.png"
+   "img":"009.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"010",
    "coll": "01",
@@ -138,7 +147,8 @@
    "materials":["Sterling Silver", "24K Gold", "Sapphire", "Diamond"],
    "sizes":[18, 20],
    "inventory":"4",
-   "img":"010.png"
+   "img":"010.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"011",
    "coll": "01",
@@ -152,7 +162,8 @@
    "materials":["24K Gold", "Sapphire", "Amethyst"],
    "sizes":[18, 20],
    "inventory":"8",
-   "img":"011.png"
+   "img":"011.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"012",
    "coll": "01",
@@ -166,7 +177,8 @@
    "materials":["Sterling Silver", "Sapphire", "Ruby"],
    "sizes":[16, 18, 20, 22],
    "inventory":"12",
-   "img":"012.png"
+   "img":"012.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"013",
    "coll": "01",
@@ -180,7 +192,8 @@
    "materials":["Sterling Silver", "24K Gold", "Sapphire", "Diamond"],
    "sizes":[18, 20],
    "inventory":"8",
-   "img":"013.png"
+   "img":"013.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"014",
    "coll": "02",
@@ -194,7 +207,8 @@
    "materials":["Sterling Silver", "Rose Quartz", "Biwa Pearl"],
    "sizes":[16, 18, 20, 22],
    "inventory":"24",
-   "img":"014.png"
+   "img":"014.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"015",
    "coll": "02",
@@ -208,7 +222,8 @@
    "materials":["Sterling Silver", "Howlite"],
    "sizes":[16, 18, 20, 22],
    "inventory":"24",
-   "img":"015.png"
+   "img":"015.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"016",
    "coll": "02",
@@ -222,7 +237,8 @@
    "materials":["Sterling Silver", "White Marble"],
    "sizes":[16, 18, 20, 22],
    "inventory":"24",
-   "img":"016.png"
+   "img":"016.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"017",
    "coll": "no",
@@ -236,7 +252,8 @@
    "materials":["Sterling Silver", "Rose Quartz", "Biwa Pearl", "Howlite"],
    "sizes":[18, 20],
    "inventory":"12",
-   "img":"017.png"
+   "img":"017.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
    "id":"018",
    "coll": "no",
@@ -250,7 +267,8 @@
    "materials":["Sterling Silver", "24K Gold", "Sapphire"],
    "sizes":[16, 18, 20, 22],
    "inventory":"10",
-   "img":"018.png"
+   "img":"018.png",
+   "alt":"Two females sitting on a couch laughing together adorned with jewelry."
 },{
     "id":"019",
     "coll": "no",

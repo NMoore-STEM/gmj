@@ -504,12 +504,14 @@ nav{
   margin-top: 1.6rem;
   &::before{
     content: url(/assets/arrow-gmj.svg);
+    margin-right: 10px;
   }
 }
 .details_home_link{
   grid-row-start: 3;
   &::before{
     content: url(/assets/home-icon.svg);
+    margin-right: 10px;
   }
 }
 .item_details_card_img{
@@ -601,6 +603,7 @@ nav{
 .item_materials{
   font-family: $heading-font;
   margin-right: 50px;
+  margin-left: 15px;
 }
 .item_sizes{
   display: flex;
