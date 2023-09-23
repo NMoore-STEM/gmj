@@ -35,9 +35,14 @@ export default function App() {
                     <Route path="bracelets" element={ <Bracelets/> } />
                     <Route path="earrings" element={ <Earrings/> } />
                     <Route path="charms" element={ <Charms/> } />
-                    <Route path="/store/:id" element={ <ItemDetails/> } />
+                    {/* <Route path="/store/:id" element={ <ItemDetails/> } /> */}
                     <Route path="/store/:type/:id" element={ <ItemDetailsToo/> } />
-                    <Route path="/store/:type" element={ <ProductPage/> } />
+                    <Route 
+                        path="/store/:type" 
+                        loader={({ params }) => {
+                            console.log(params.type);
+                        }}
+                        element={ <ProductPage/> } />
                 </Route>
                 {/* Below routes may not be needed */}
                 <Route path="necklaces" element={ <Necklaces/> } />
