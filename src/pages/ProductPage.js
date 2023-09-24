@@ -22,16 +22,18 @@ function ProductPage() {
         let params = useParams();
         console.log(params.teamId);
 
-        //const {id} = useParams();
+        const {id} = useParams();
         // const prodType = stockData.find(
         //     itemType => itemType.type
         // );
         const prodType = stockData.map(
-            pType => pType.type === params
+            pType => pType.type === id
         );
         //const prodType = Array.from(prodDetails.type);
         
             return(
+
+
                 <div className="page_container">
                     <div className="left_side_full">
                         <FilterDash />
@@ -41,9 +43,10 @@ function ProductPage() {
                             <h2 className="page_title">{prodType}</h2>
                         </div>
                         <CardTemplate />
-                        <img src={require("../images/" + prodType.type + "/" + prodType.type + "-splash.png")} alt={"Two females sitting on a couch laughing together adorned with jewelry."}></img>
+                        {/* <img src={require("../images/" + prodType.type + "/" + prodType.type + "-splash.png")} alt={"Two females sitting on a couch laughing together adorned with jewelry."}></img> */}
                     </div>
                 </div>
+
             )
 
 }
